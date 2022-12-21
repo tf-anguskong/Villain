@@ -57,3 +57,8 @@ Pull requests are generally welcome. Please, keep in mind: I am constantly worki
 
 There are parts of this project that were removed before publishing because I considered them to be buggy or hard to maintain (at this early stage).
 If you have an idea for an addition that comes with a significant chunk of code, I suggest you first contact me to discuss if there's something similar already in the making, before making a PR. 
+
+## Docker Image 
+
+Building the docker image `docker build --no-cache -t villain-1 .`
+Using the docker image: `docker run -i -t villain-1 --network=host`
