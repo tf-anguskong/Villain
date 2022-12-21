@@ -61,4 +61,5 @@ If you have an idea for an addition that comes with a significant chunk of code,
 ## Docker Image 
 
 Building the docker image `docker build --no-cache -t villain-1 .`
-Using the docker image: `docker run -i -t villain-1 --network=host`
+
+Using the docker image: `docker run -i -t  --network=host villain-1`
